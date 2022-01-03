@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_armstrong_number.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_content_provider.xml" value="0.1554054054054054" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_eb_bill.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_fibonacci.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main2.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_odd_or_even.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_polindrome_number.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_polindrome_string.xml" value="0.1" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_prime.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_sales_man.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_student.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_student_mark_list.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
