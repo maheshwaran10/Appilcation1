@@ -9,42 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity
-            android:name=".ContentProviderActivity"
-            android:exported="false" />
-        <activity
-            android:name=".FibonacciActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PrimeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ArmstrongNumberActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="true" />
-        <activity
-            android:name=".PolindromeString"
-            android:exported="true" />
-        <activity
-            android:name=".PolindromeNumber"
-            android:exported="true" />
-        <activity
-            android:name=".SalesManActivity"
-            android:exported="true" />
-        <activity
-            android:name=".EbBillActivity"
-            android:exported="true">
+        <activity android:name=".ContentProviderActivity" android:exported="false" />
+        <activity android:name=".FibonacciActivity" android:exported="false" />
+        <activity android:name=".PrimeActivity" android:exported="false" />
+        <activity android:name=".ArmstrongNumberActivity" android:exported="false" />
+        <activity android:name=".MainActivity" android:exported="true" />
+        <activity android:name=".MainActivity2" android:exported="true" />
+        <activity android:name=".PolindromeString" android:exported="true" />
+        <activity android:name=".PolindromeNumber" android:exported="true" />
+        <activity android:name=".SalesManActivity" android:exported="true" />
+        <activity android:name=".EbBillActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
