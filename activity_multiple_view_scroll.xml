@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:divider="@color/black"
+        android:paddingTop="10dp"
+        android:padding="20dp"
+        android:background="@color/white"
+        tools:context=".day5.MultipleViewScrollActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:text="@string/multiple_view_with_scroll"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:text="EditText"
+            android:layout_marginTop="@dimen/text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/hind_guntur"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:text="AutoComplete TextView"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Programming Language"
+            android:fontFamily="@font/hind_guntur"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="MultiAutoCompleteTextView "
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+        <MultiAutoCompleteTextView
+            android:id="@+id/brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:fontFamily="@font/hind_guntur"
+            android:hint="Select Foot Wear Brand" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="CheckedTextView "
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <CheckedTextView
+            android:id="@+id/simpleCheckedTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="center"
+            android:checkMark="@drawable/checked"
+            android:textColor="#fff"
+            android:background="#000"
+            android:textSize="20sp"
+            android:text="Android"
+            android:fontFamily="@font/hind_guntur"
+            android:paddingLeft="10dp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="TextInputLayout"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:fontFamily="@font/hind_guntur"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hind_guntur"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:fontFamily="@font/hind_guntur"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/black"
+            app:shapeAppearance="@style/Cut">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hind_guntur"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter text"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/Red"
+            app:shapeAppearance="@style/Rounded">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hind_guntur"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Chip and ChipGroup"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipCpp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip Example"
+            android:fontFamily="@font/hind_guntur"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Checkbox Example"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <CheckBox
+            android:id="@+id/pizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pizza"
+            android:fontFamily="@font/hind_guntur"/>
+
+        <CheckBox
+            android:id="@+id/burger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Burger"
+            android:fontFamily="@font/hind_guntur"/>
+
+        <CheckBox
+            android:id="@+id/coffee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Coffee"
+            android:fontFamily="@font/hind_guntur"/>
+
+        <Button
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order"
+            android:fontFamily="@font/hind_guntur"
+            android:backgroundTint="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="RadioButton Example"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:fontFamily="@font/hind_guntur"/>
+
+            <RadioButton
+                android:id="@+id/feMale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FeMale"
+                android:fontFamily="@font/hind_guntur"/>
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Selected"
+            android:fontFamily="@font/hind_guntur"
+            android:backgroundTint="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="ToggleButton Example"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:fontFamily="@font/hind_guntur"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Switch Example"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="56dp"
+            android:textOff="@string/off"
+            android:textOn ="@string/on"
+            android:layout_gravity="center"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Floating Action Button Example"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:elevation="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_mail"
+            android:layout_gravity="end"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="WebView Example"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <Button
+            android:id="@+id/load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WebView"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:textAllCaps="false"/>
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="CalenderView Example"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <TextView
+            android:id="@+id/date_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Set the Date"
+            android:fontFamily="@font/hind_guntur"
+            android:textSize="@dimen/text"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <!-- Add CalendarView to display the Calendar -->
+        <CalendarView
+            android:id="@+id/calendar"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </CalendarView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SeekBar Example"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+        <SeekBar
+            android:id="@+id/seek"
+            android:layout_marginTop="20dp"
+            android:max="100"
+            android:indeterminate="false"
+            android:progress="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/seekText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+           android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_guntur"
+            android:gravity="center"
+            android:text="SeekBar Discrete Example"
+            android:textColor="@color/black"
+            android:textSize="@dimen/minSize" />
+        <SeekBar
+            android:id="@+id/sb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:thumb="@drawable/ic_location"
+            android:theme="@style/Widget.AppCompat.SeekBar.Discrete" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
